@@ -380,4 +380,8 @@ Project Link: [https://github.com/HyderPre/Sentiment-Analysis](https://github.co
 
 ---
 
-⭐ Star this repo if you found it helpful!
+## 🏷️ Hashtags
+
+#SentimentAnalysis #NLP #NaturalLanguageProcessing #MachineLearning #HindiNLP #Hinglish #BilingualNLP #TextClassification #TwitterAnalysis #SocialMediaAnalysis #EnsembleClassification #NaiveBayes #LogisticRegression #SVM #SupportVectorMachine #DeepTranslator #NLTK #Scikit-learn #PythonNLP #DataScience #LanguageProcessing #CodeMixing #EmotionAnalysis #OpinionMining #TextMining #CrosslingualNLP #MultilingualNLP #PythonMachineLearning #DataAnalysis #GitHubProject #OpenSource #NLPProject #SentimentClassifier #TwitterSentiment #TextAnalysis #LanguageDetection #AutomaticTranslation #EnsembleLearning #ClassificationAlgorithm #MLProject #DataAnnotation #FeatureExtraction #TextPreprocessing #Tokenization #Lemmatization #StopwordRemoval #NLTKLibrary #PythonDataScience #MachineLearningModel #PredictiveAnalysis #ArtificialIntelligence #AI #ML #NLP
+
+---
