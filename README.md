@@ -262,11 +262,14 @@ Sentiment-Analysis/
 - A: NLTK Twitter Sentiment Dataset provides a well-established, quality-controlled English dataset with 1.6M labeled tweets. Labeled Hinglish datasets don't exist at scale. Creating one manually would require months of work.
 
 **Q: The model is trained on English tweets but claims to be bilingual. How does that work?**
-- A: The project implements a **translate-then-classify approach**:
-  1. Hindi/Hinglish text is automatically translated to English using Google Translate
-  2. The English translation is passed to sentiment classifiers trained on English tweets
-  3. This is **NOT** a true bilingual model, but a **bilingual interface** to an English classifier
-  - This is a proven technique in cross-lingual NLP when native training data is unavailable
+- A: This is **purely a translation-based solution**, not a true bilingual model:
+  1. Hindi/Hinglish text comes in
+  2. It's translated to English word-by-word using Google Translate
+  3. The English translation is classified using the English sentiment model
+  4. Result is the sentiment of the translated text, NOT the original Hindi text
+  - **Key limitation**: Translation quality directly affects accuracy. If translation is poor, prediction is poor.
+  - **What this means**: The model only understands English sentiment. Hindi/Hinglish support is just preprocessing (translation). It's **not a bilingual model** - it's an **English model with a translation layer**.
+  - **Why we did this**: No labeled Hinglish sentiment dataset exists. Translation is a practical workaround.
 
 **Q: Isn't translation going to lose meaning and accuracy?**
 - A: Somewhat, yes. Translation quality varies, but:
