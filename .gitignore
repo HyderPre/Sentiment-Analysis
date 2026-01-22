@@ -64,9 +64,6 @@ $RECYCLE.BIN/
 # *.csv
 # test_data.csv
 
-# PDF files
-*.pdf
-
 # Logs
 *.log
 
